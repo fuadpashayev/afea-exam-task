@@ -20,8 +20,10 @@ const Add = () => {
         dispatch({ type: "SET_CORRECT_ANSWER", payload: parseInt(e.target.value) })
     };
 
+    console.log(questionData, questionId)
+
     const onSubmit = () => {
-        addQuestion(questionData);
+        addQuestion({...questionData, id: questionId + 1});
         alert("Question added successfully!");
         window.location.href = "/admin";
     };

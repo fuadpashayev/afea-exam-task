@@ -2,4 +2,4 @@
 ## How to setup
 
 - Run `npm install`
-- Run `npm start-app`
+- Run `npm run start-app`

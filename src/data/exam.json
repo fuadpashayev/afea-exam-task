@@ -1,0 +1,96 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "What is the capital of France?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Paris"
+        },
+        {
+          "id": 2,
+          "text": "London"
+        },
+        {
+          "id": 3,
+          "text": "Berlin"
+        },
+        {
+          "id": 4,
+          "text": "Rome"
+        }
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "text": "What is the capital of Azerbaijan?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Baku"
+        },
+        {
+          "id": 2,
+          "text": "London"
+        },
+        {
+          "id": 3,
+          "text": "Berlin"
+        },
+        {
+          "id": 4,
+          "text": "Rome"
+        }
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 3,
+      "text": "What is the capital of Italy?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Paris"
+        },
+        {
+          "id": 2,
+          "text": "London"
+        },
+        {
+          "id": 3,
+          "text": "Berlin"
+        },
+        {
+          "id": 4,
+          "text": "Rome"
+        }
+      ],
+      "correctAnswer": 4
+    },
+    {
+      "id": 4,
+      "text": "What is the capital of England?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Paris"
+        },
+        {
+          "id": 2,
+          "text": "London"
+        },
+        {
+          "id": 3,
+          "text": "Berlin"
+        },
+        {
+          "id": 4,
+          "text": "Rome"
+        }
+      ],
+      "correctAnswer": 2
+    }
+  ]
+}

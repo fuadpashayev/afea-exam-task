@@ -2,7 +2,7 @@
   "questions": [
     {
       "id": 1,
-      "text": "What is the capital of France????",
+      "text": "What is the capital of France?",
       "answers": [
         {
           "id": 1,
@@ -44,7 +44,7 @@
           "text": "Rome"
         }
       ],
-      "correctAnswer": 3
+      "correctAnswer": 1
     },
     {
       "id": 3,

@@ -69,7 +69,7 @@ const Edit = () => {
                             onChange={onCorrectAnswerChange}>
                             {
                                 questionData?.answers?.map(({ id, text }) => (
-                                    <option key={id} value={id}>{text}</option>
+                                    <option key={id} value={id} selected={question.correctAnswer === id}>{text}</option>
                                 ))
                             }
                         </select>

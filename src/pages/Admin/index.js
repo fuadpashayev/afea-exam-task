@@ -1,10 +1,11 @@
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import { deleteQuestion } from "./api";
 
 const Admin = () => {
     const questions = useSelector((state) => state.exam.questions);
 
-    const deleteQuestion = (id) => {
+    const onDeleteQuestion = (id) => {
         deleteQuestion(id);
         alert('Question deleted successfully!')
         window.location.href = "/admin";
@@ -33,7 +34,7 @@ const Admin = () => {
                             <td>{answers.find(a => a.id === correctAnswer).text}</td>
                             <td>
                                 <Link to={`/admin/edit/${id}`} className="btn btn-primary">Edit</Link>
-                                <button className="btn btn-danger ms-1" onClick={() => deleteQuestion(id)}>Delete</button>
+                                <button className="btn btn-danger ms-1" onClick={() => onDeleteQuestion(id)}>Delete</button>
                             </td>
                         </tr>
                     ))}
